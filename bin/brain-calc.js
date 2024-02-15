@@ -11,7 +11,7 @@ const task = () => {
 
   let answer = '';
 
-  switch(indexOper) {
+  switch (indexOper) {
     case 0:
       answer = `${firstNum + secondNum}`;
       break;
@@ -23,7 +23,7 @@ const task = () => {
       break;
   }
 
-  return [`${firstNum} ${operator[indexOper]} ${secondNum}`, answer]; //аналог [question, answer]
+  return [`${firstNum} ${operator[indexOper]} ${secondNum}`, answer]; // аналог [question, answer]
 };
 
 gameBody(description, task);
