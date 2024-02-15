@@ -16,7 +16,7 @@ const gameBody = (description, taskFunc) => {
       console.log('Correct!');
       mark += 1;
     } else {
-      console.log(`"${userAnswer}' is wrong answer ;(. Correct answer was '${step[1]}'.\nLet's try again, ${userName}!`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${step[1]}'.\nLet's try again, ${userName}!`);
       break;
     }
   }
