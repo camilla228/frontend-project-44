@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameBody from '../src/index.js';
+import gameBody from '../index.js';
 
 // const userName = greeting();
 

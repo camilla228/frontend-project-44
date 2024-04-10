@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameBody from '../src/index.js';
+import gameBody from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 

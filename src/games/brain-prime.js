@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameBody from '../src/index.js';
+import gameBody from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 

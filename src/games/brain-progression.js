@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameBody from '../src/index.js';
+import gameBody from '../index.js';
 
 const description = 'What number is missing in the progression?';
 
