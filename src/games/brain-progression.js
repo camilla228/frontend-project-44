@@ -19,4 +19,6 @@ const task = () => {
   return [progression.join(' '), answer];
 };
 
-gameBody(description, task);
+export default () => {
+  gameBody(description, task);
+};

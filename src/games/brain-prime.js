@@ -14,4 +14,6 @@ const task = () => {
   return [num, 'yes'];
 };
 
-gameBody(description, task);
+export default () => {
+  gameBody(description, task);
+};

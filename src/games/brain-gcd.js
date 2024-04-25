@@ -22,4 +22,6 @@ const task = () => {
   return [`${num1} ${num2}`, answer];
 };
 
-gameBody(description, task);
+export default () => {
+  gameBody(description, task);
+};

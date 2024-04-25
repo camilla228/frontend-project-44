@@ -18,4 +18,6 @@ const task = () => {
   return [question, answer];
 };
 
-gameBody(description, task);
+export default () => {
+  gameBody(description, task);
+};

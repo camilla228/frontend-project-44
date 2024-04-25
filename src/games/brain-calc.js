@@ -26,4 +26,6 @@ const task = () => {
   return [`${firstNum} ${operator[indexOper]} ${secondNum}`, answer]; // аналог [question, answer]
 };
 
-gameBody(description, task);
+export default () => {
+  gameBody(description, task);
+};
